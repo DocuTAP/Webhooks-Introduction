@@ -51,3 +51,13 @@ undo_callback
 discharge
 undo_discharge
 ```
+
+## I'm receiving data from the webhooks!  Now what?
+That's entirely up to you. Knowing that an action has taken place gives you
+the opportunity to be quicker to react to changes in Clockwise.
+
+An example setup might be that your webhook only cares about the `create`
+Event Type, so whenever you receive an Appointment ID with the `create` Event
+Type, you can use Clockwise.MD's existing REST API to query for the
+appointment's demographics information and update an internal database.
+
