@@ -1,7 +1,7 @@
 # Webhooks in Clockwise.MD
 This is a concise introduction to webhook integrations with Clockwise.MD.
 
-## What are webhooks?
+## What is a webhook?
 A simple notification from us that something about an appointment has changed.
 Unlike polling, it is initiated by our servers.
 
