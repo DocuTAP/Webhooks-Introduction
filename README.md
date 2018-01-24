@@ -46,6 +46,8 @@ checkin
 undo_checkin
 remove
 undo_remove
+ready
+undo_ready
 callback
 undo_callback
 discharge
