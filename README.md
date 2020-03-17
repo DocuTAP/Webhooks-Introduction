@@ -66,6 +66,11 @@ appointment's demographics information and update an internal database.
 ## Security
 For security reasons, you may *not* want to expose your webhook endpoint for
 general consumption by the open internet. Interally to your application, you
-can mantain a list of supported vendors by keys:
+can maintain a list of supported vendors by keys and listen on separate routes
+for each key:
 
 `https://hooks.example.com/webhook/CF3uQP8cSFIQB8gB/9285030fceca`
+
+Alternately (or additionally), we can include keys in an "Authtoken" header in
+the POST requests instead of in the URL. If you wish to use this header-based
+authentication, simply let us know the correct token to use.
